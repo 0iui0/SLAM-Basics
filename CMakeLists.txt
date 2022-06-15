@@ -27,3 +27,6 @@ add_executable(PoseInterpolation
 add_executable(PlaneFitting
         include/header.h
         src/PlaneFitting.cpp)
+add_executable(GridMap
+        include/header.h
+        src/GridMap.cpp)
