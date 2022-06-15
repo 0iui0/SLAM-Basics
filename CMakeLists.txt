@@ -21,3 +21,6 @@ add_executable(Eigen-Base src/Eigen-Base.cpp)
 add_executable(PointDist
         include/header.h
         src/PointDist.cpp)
+add_executable(PoseInterpolation
+        include/header.h
+        src/PoseInterpolation.cpp)
