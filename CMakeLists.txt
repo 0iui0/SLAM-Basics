@@ -24,3 +24,6 @@ add_executable(PointDist
 add_executable(PoseInterpolation
         include/header.h
         src/PoseInterpolation.cpp)
+add_executable(PlaneFitting
+        include/header.h
+        src/PlaneFitting.cpp)
