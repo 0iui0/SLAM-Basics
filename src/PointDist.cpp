@@ -6,11 +6,18 @@ float dist(Eigen::VectorXf &v1, Eigen::VectorXf &v2) {
     return (v1 - v2).norm();
 }
 
+bool operator<(const Eigen::Vector3d &a, const Eigen::Vector3d &b) {
+    return (a.x() < b.x()) && (a.y() < b.y()) && (a.z() < b.z());
+}
+
 int main() {
     Eigen::VectorXf v1(2), v2(2);
     v1 << 0, 0;
     v2 << 1, 1;
-    std::cout << "Euclidean dist of v1 to v2 is : " << dist(v1, v2) << std::endl;
+    cout << "Euclidean dist of v1 to v2 is : " << dist(v1, v2) << endl;
+    Eigen::Vector3d a(0, 0, 0);
+    Eigen::Vector3d b(1, 1, 1);
+    cout << (a < b) << endl;
 }
 
 
