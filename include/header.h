@@ -12,6 +12,8 @@
 #include <Eigen/Core>
 #include <Eigen/Geometry>
 #include <Eigen/SVD>
+#include <ceres/ceres.h>
 
 using namespace std;
+using namespace Eigen;
 #endif //SLAM_BASICS_HEADER_H
