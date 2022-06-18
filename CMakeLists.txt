@@ -11,7 +11,7 @@ include_directories(
         ${OpenCV_INCLUDE_DIRS}
         ${CERES_INCLUDE_DIRS}
 )
-include_directories("/opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3")
+include_directories("/opt/homebrew/Caskroom/miniconda/base/envs/robostackenv/include/eigen3")
 
 link_directories(
         include
