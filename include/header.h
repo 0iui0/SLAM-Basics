@@ -16,4 +16,5 @@
 
 using namespace std;
 using namespace Eigen;
+using namespace ceres;
 #endif //SLAM_BASICS_HEADER_H
